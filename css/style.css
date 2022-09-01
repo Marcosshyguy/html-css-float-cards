@@ -6,7 +6,7 @@
 /* Common */
 html{
     font-family: 'Fredoka', sans-serif;
-    font-size: 100%;
+    font-size: 16px;
 }
 
 body{
@@ -43,7 +43,12 @@ header{
 .col{
     width: calc(100% / 3);
     float: left;
-}
+
+ }
+
+/* .col:last-of-type{
+    margin:0;
+} */
 
 .clearfix:after{
     content: "";
@@ -56,9 +61,6 @@ header{
     float: left;
 }
 
-.option{
-    margin-right: 1rem;
-}
 
 .option > *{
     padding: .5rem;
