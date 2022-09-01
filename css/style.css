@@ -8,3 +8,47 @@ html{
     font-family: 'Fredoka', sans-serif;
     font-size: 100%;
 }
+
+body{
+    background-color: white;
+}
+/* Common */
+.container{
+    width:70%;
+    margin: 0 auto;
+
+}
+/* header */
+header{
+    /* debug */
+    margin-bottom:2em;
+}
+
+/* grid */
+
+.col-container{
+    
+}
+
+.col{
+    width: calc(100% / 3);
+    float: left;
+    /* debug */
+    border: 1px solid black;
+    
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col > img {
+    height: 7rem ;
+}
+
+.option{
+    
+}
+
