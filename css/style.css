@@ -16,7 +16,7 @@ body{
 .container{
     width:70%;
     margin: 0 auto;
-
+/* preferibile max width */
 }
 /* header */
 header{
@@ -35,20 +35,20 @@ header{
 /* grid */
 
 .col-container{
-    background-color: black;
     color: white;
     margin-bottom: 3rem;
 }
 
 .col{
-    width: calc(100% / 3);
+    background-color: black;
+    width: calc(100% / 3 - 1em);
     float: left;
-
+    margin-right: 1em;
  }
 
-/* .col:last-of-type{
+.col:last-of-type{
     margin:0;
-} */
+}
 
 .clearfix:after{
     content: "";
@@ -57,11 +57,11 @@ header{
 }
 
 .col > img {
-    height: 7rem ;
+    height: 7rem ;   /* meglio width %*/
     float: left;
 }
 
-
+                    /* meglio creare due classi una per fotp l atra per option*/
 .option > *{
     padding: .5rem;
 }
